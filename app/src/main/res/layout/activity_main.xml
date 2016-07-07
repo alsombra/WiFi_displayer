@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sombra.wifi_displayer.MainActivity">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myswitch"
+        android:text="WiFi Settings"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:showText="true"
+        />
+
+    <Button android:id="@+id/btn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Search Network" />
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:gravity = "center"/>
+    </ScrollView>
+
+
+</LinearLayout>
